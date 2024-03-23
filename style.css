@@ -92,7 +92,7 @@ body {
   transition-duration: 1s;
 }
 .ai > img {
-  width: 10vh;
+  width: 100%;
 }
 
 .icns {
@@ -462,5 +462,10 @@ body {
   }
   .team > img {
     width: 20%;
+  }
+  .ai
+  {
+    height: 9vh;
+    width: 10vh;
   }
 }
