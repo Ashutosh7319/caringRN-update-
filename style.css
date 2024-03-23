@@ -197,7 +197,7 @@ body {
 }
 
 #sec2 {
-  height: 100vh;
+  height: 120vh;
   background-color: rgb(33, 33, 33);
   color: rgb(94, 194, 94);
 }
@@ -226,7 +226,7 @@ body {
   /* border: 2px solid white; */
   flex-direction: column;
   width: 28%;
-  height: 90%;
+  height: max-content;
   margin: 3%;
 }
 .card-1 > img {
