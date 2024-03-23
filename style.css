@@ -84,15 +84,16 @@ body {
   margin-left: 10%;
   border-radius: 100%;
   cursor: pointer;
-  width: 6%;
-  height: 6%;
+  width: fit-content;
+  height: 10vh;
 }
 .ai:hover {
   border: 2px solid rgb(86, 241, 86);
   transition-duration: 1s;
 }
 .ai > img {
-  width: 100%;
+  /* width: 20%; */
+  /* width: fit-content; */
 }
 
 .icns {
@@ -400,7 +401,17 @@ body {
     display: flex;
   }
 
+  .icns
+  {
+    /* border: 2px solid whitesmoke; */
+    flex-direction: column;
+  }
 
+  .ai
+  {
+    height: 7vh;
+    margin-top: 2%;
+  }
 
   #sec2 {
     flex-direction: column;
@@ -463,9 +474,5 @@ body {
   .team > img {
     width: 20%;
   }
-  .ai
-  {
-    height: 9vh;
-    width: 10vh;
-  }
+
 }
