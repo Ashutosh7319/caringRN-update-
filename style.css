@@ -84,6 +84,8 @@ body {
   margin-left: 10%;
   border-radius: 100%;
   cursor: pointer;
+  width: 6%;
+  height: 6%;
 }
 .ai:hover {
   border: 2px solid rgb(86, 241, 86);
