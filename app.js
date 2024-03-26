@@ -26,12 +26,6 @@ function changeimg()
 
 window.onload = changeimg;
 
-let ai = document.getElementById('ai-1');
-
-ai.addEventListener('click', ()=>
-{
-
-})
 
 let ham = document.getElementById('ham');
 let crossx = document.getElementById('cross');
