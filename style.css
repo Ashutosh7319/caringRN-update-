@@ -87,6 +87,10 @@ body {
   width: fit-content;
   height: 10vh;
 }
+.ai>a
+{
+  display: flex;
+}
 .ai:hover {
   border: 2px solid rgb(86, 241, 86);
   transition-duration: 1s;
@@ -139,9 +143,10 @@ body {
   /* border: 2px solid blue; */
   display: flex;
   /* align-self: flex-end; */
-  width: 35%;
-  height: 50vh;
+  width: 40%;
+  height: 40%;
   margin-right: 10%;
+  margin-top: -10%;
 }
 
 .right {
@@ -423,8 +428,14 @@ body {
     /* height: fit-content; */
     flex-direction: column;
   }
+  #c-1span, #c-2span
+  {
+    font-size: 1rem;
+  }
   .card-1 {
-    width: 60%;
+    width: 90%;
+    /* border: 2px solid white; */
+    height: fit-content;
     /* height: 85vh; */
   }
   .sec1cont
@@ -458,21 +469,44 @@ body {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    
   }
   #sec4 > img {
-    height: 35%;
+    height: auto;
   }
   .rightgif {
     /* border: 2px solid white; */
     margin: auto;
     justify-content: center;
     align-items: center;
+    width: 80%;
   }
   .rightgif > img {
-    height: 40%;
+    /* height: 40%; */
   }
   .team > img {
     width: 20%;
   }
-
+  .buttons
+  {
+    /* border: 2px solid white; */
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    /* align-items: center; */
+  }
+  .buttons>button
+  {
+    padding: 3%;
+    border-radius: 10%;
+  }
+  .rght>span
+  {
+    font-size: 1rem;
+  }
+  #sec4>span
+  {
+    font-size: 1.2rem;
+  }
 }
