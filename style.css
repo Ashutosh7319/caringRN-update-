@@ -100,7 +100,7 @@ body {
   display: flex;
 }
 .ai:hover {
-  border: 3px solid rgb(255, 118, 118);
+/*   border: 3px solid rgb(255, 118, 118); */
   transition-duration: 1s;
 }
 .ai > a > img {
