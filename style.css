@@ -487,9 +487,11 @@ body {
     justify-content: center;
     align-items: center;
     width: 80%;
+    height: 40vh;
   }
   .rightgif > img {
-    /* height: 40%; */
+    height: 38vh;
+    width: auto;
   }
   .team > img {
     width: 20%;
