@@ -81,11 +81,11 @@ body {
 
 .ai {
   display: flex;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   margin-left: 10%;
   border-radius: 100%;
   cursor: pointer;
-  width: fit-content;
+  width: 10vh;
   height: 10vh;
 }
 .ai>a
@@ -93,12 +93,13 @@ body {
   display: flex;
 }
 .ai:hover {
-  border: 2px solid rgb(86, 241, 86);
+  border: 3px solid rgb(255, 118, 118);
   transition-duration: 1s;
 }
-.ai > img {
-  /* width: 20%; */
+.ai > a > img {
+  width: 9.8vh;
   /* width: fit-content; */
+  border-radius: 100%;
 }
 
 .icns {
@@ -144,10 +145,11 @@ body {
   /* border: 2px solid blue; */
   display: flex;
   /* align-self: flex-end; */
-  width: 40%;
-  height: 40%;
+  justify-content: end;
+  width: 70%;
+  height: 100%;
   margin-right: 10%;
-  margin-top: -10%;
+  margin-top: -5%;
 }
 
 .right {
@@ -162,8 +164,8 @@ body {
 
 .rightgif > img {
   border-radius: 3%;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 20%;
 }
 
 .buttons {
@@ -394,7 +396,11 @@ body {
   display: none;
 }
 
-@media screen and (width < 700px) {
+@media screen and (width < 855px) {
+  body
+  {
+    width: auto;
+  }
   .sec1cont {
     flex-direction: column;
   }
@@ -415,7 +421,7 @@ body {
 
   .ai
   {
-    height: 7vh;
+    /* height: 7vh; */
     margin-top: 2%;
   }
 
@@ -509,5 +515,21 @@ body {
   #sec4>span
   {
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (width < 1285px) and (width > 856px) 
+{
+  .navbar > ul > li > a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: rgb(172, 249, 175);
+    display: block;
+    /* border: 2px solid red; */
+    width: 160%;
+  }
+  body
+  {
+    width: 76vh;
   }
 }
