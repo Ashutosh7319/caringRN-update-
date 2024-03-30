@@ -18,6 +18,7 @@ body {
   align-items: center;
   background-color: rgb(0, 0, 0);
   flex-direction: column;
+  font-family: "Trebuchet MS";
 }
 
 .sec1cont {
@@ -29,6 +30,7 @@ body {
   background-repeat: no-repeat;
   /* opacity: 0; */
   border-radius: 15px;
+  font-family: "Trebuchet MS";
 }
 .navbar {
   /* border: 2px solid orange; */
@@ -36,6 +38,7 @@ body {
   display: flex;
   /* padding: 5px; */
   /* justify-content: end; */
+  font-family: "Trebuchet MS";
 }
 
 .logo {
@@ -53,6 +56,7 @@ body {
   width: fit-content;
   justify-content: center;
   align-items: center;
+  font-family: "Trebuchet MS";
 }
 
 .navbar > ul > li {
@@ -62,6 +66,7 @@ body {
   margin: 20px;
   cursor: pointer;
   list-style: none;
+  font-family: "Trebuchet MS";
 }
 
 .navbar > ul > li:hover {
@@ -73,6 +78,7 @@ body {
   text-decoration: none;
   color: rgb(172, 249, 175);
   display: block;
+  font-family: "Trebuchet MS";
 }
 .navbar > ul > li > a:hover,
 .navbar > ul > li > a:focus {
@@ -87,6 +93,7 @@ body {
   cursor: pointer;
   width: 10vh;
   height: 10vh;
+  font-family: "Trebuchet MS";
 }
 .ai>a
 {
@@ -109,6 +116,7 @@ body {
   align-items: center;
   padding: 10px;
   margin-left: 15%;
+  font-family: "Trebuchet MS";
 }
 
 .icns > a {
@@ -125,6 +133,7 @@ body {
 .icns > a > i {
   font-size: 2rem;
   margin-left: 5%;
+  /* font-family: "Trebuchet MS"; */
 }
 
 .team {
@@ -133,6 +142,7 @@ body {
   display: flex;
   width: 100%;
   height: 18%;
+  font-family: "Trebuchet MS";
 }
 
 .team > img {
@@ -209,6 +219,7 @@ body {
   height: 120vh;
   background-color: rgb(33, 33, 33);
   color: rgb(94, 194, 94);
+  font-family: "Trebuchet MS";
 }
 
 .heading {
@@ -220,6 +231,7 @@ body {
 }
 .heading > h1 {
   font-size: 2rem;
+  font-family: "Trebuchet MS";
 }
 
 .cards {
@@ -228,6 +240,7 @@ body {
   height: 90%;
   justify-content: center;
   align-items: center;
+  font-family: "Trebuchet MS";
 }
 
 .card-1 {
@@ -248,17 +261,20 @@ body {
   background: url("/bak2.jpeg");
   background-size: cover;
   border-radius: 3%;
+  font-family: "Trebuchet MS";
 }
 #c-2 {
   background: url("/bak2.jpg");
   background-size: cover;
   border-radius: 3%;
+  font-family: "Trebuchet MS";
 }
 #c-3 {
   background: url("/bak3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 3%;
+  font-family: "Trebuchet MS";
 }
 
 #c-1span {
@@ -267,6 +283,7 @@ body {
   color: white;
   font-size: 1.2rem;
   /* margin-top: 5%; */
+  font-family: "Trebuchet MS";
 }
 #c-2span {
   /* border: 2px solid white; */
@@ -274,11 +291,13 @@ body {
   color: white;
   font-size: 1.2rem;
   /* margin-top: 5%; */
+  font-family: "Trebuchet MS";
 }
 
 #sec3 {
   height: 100vh;
   background-color: black;
+  font-family: "Trebuchet MS";
 }
 
 .heading2 {
@@ -286,6 +305,7 @@ body {
   /* border: 2px solid white; */
   padding: 2%;
   font-size: 1.2rem;
+  font-family: "Trebuchet MS";
 }
 
 .about {
@@ -296,6 +316,7 @@ body {
   height: 80%;
   width: 100%;
   display: flex;
+  font-family: "Trebuchet MS";
 }
 
 .lft {
@@ -325,6 +346,7 @@ body {
   display: flex;
   /* align-items: center; */
   padding: 8%;
+  font-family: "Trebuchet MS";
 }
 
 #sec4 {
@@ -358,6 +380,7 @@ body {
   margin-top: 1.6%;
   /* display: none; */
   cursor: pointer;
+  font-family: "Trebuchet MS";
 
 }
 #ham {
@@ -372,6 +395,7 @@ body {
   color: rgb(132, 227, 129);
   background-color: rgb(59, 59, 59);
   cursor: pointer;
+  font-family: "Trebuchet MS";
 }
 #cross {
   border: none;
@@ -385,6 +409,7 @@ body {
   color: rgb(132, 227, 129);
   background-color: rgb(59, 59, 59);
   cursor: pointer;
+  font-family: "Trebuchet MS";
 }
 .ham > i, .cross>i{
   /* padding: 2%; */
@@ -400,6 +425,7 @@ body {
   body
   {
     width: auto;
+    font-family: "Trebuchet MS";
   }
   .sec1cont {
     flex-direction: column;
