@@ -85,26 +85,60 @@ body {
   color: whitesmoke;
 }
 
+@keyframes rot 
+{
+  0%
+  {
+    rotate: 0deg;
+  }
+
+  35%
+  {
+    rotate: y 180deg;
+  }
+
+  60%
+  {
+    rotate: z -80deg;
+  }
+  90%
+  {
+    rotate: y -180deg;
+  }
+  100%
+  {
+    rotate: 0deg;
+  }
+}
+
+
 .ai {
   display: flex;
   /* border: 2px solid white; */
   margin-left: 10%;
   border-radius: 100%;
   cursor: pointer;
-  width: 10vh;
-  height: 10vh;
+  /* width: 10vh;
+  height: 10vh; */
+  width: 14vh;
+  height: 16vh;
   font-family: "Trebuchet MS";
+  animation: rot 3s infinite;
 }
 .ai>a
 {
+  /* border: 2px solid white; */
   display: flex;
+  width: 100%;
+  height: 100%;
 }
 .ai:hover {
-/*   border: 3px solid rgb(255, 118, 118); */
+  /* border: 3px solid rgb(255, 118, 118); */
   transition-duration: 1s;
 }
 .ai > a > img {
-  width: 9.8vh;
+  width: 100%;
+  height: auto;
   /* width: fit-content; */
   border-radius: 100%;
 }
@@ -449,6 +483,15 @@ body {
   {
     /* height: 7vh; */
     margin-top: 2%;
+    width: auto;
+  }
+  .ai>a
+  {
+    width: auto;
+  }
+  .ai>a>img
+  {
+    width: auto;
   }
 
   #sec2 {
@@ -545,6 +588,7 @@ body {
     font-size: 1.2rem;
   }
 }
+
 
 @media screen and (width < 1285px) and (width > 856px) 
 {
