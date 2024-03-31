@@ -484,14 +484,7 @@ body {
     /* height: 7vh; */
     margin-top: 2%;
     width: auto;
-  }
-  .ai>a
-  {
-    width: auto;
-  }
-  .ai>a>img
-  {
-    width: auto;
+    height: 10vh;
   }
 
   #sec2 {
